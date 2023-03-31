@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.flex-items {
+  height: 30em;
+  width: 20em;
+}
+
+.item-one {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 20px 0px 0px 20px;
+}
+
+.item-two {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.item-three {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 20px 20px 0px;
+}
+
+.img {
+  margin-left: 3em;
+  margin-top: 3em;
+}
+
+.header {
+  margin-left: 1.5em;
+  margin-top: 1em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.para {
+  margin-left: 3em;
+  margin-top: 2em;
+  line-height: 1.5rem;
+  font-size: 15px;
+}
+
+.paragraph-one {
+  color: #ffd8a7;
+}
+
+.paragraph-two {
+  color: #b6e7ec;
+}
+
+.paragraph-three {
+  color: #bad1d1;
+}
+
+.btn {
+  margin-left: 3em;
+  margin-top: 6em;
+  width: 8rem;
+  height: 2.6rem;
+  letter-spacing: 1.5px;
+  background-color: white;
+  text-transform: capitalize;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.btn-one {
+  color: hsl(31, 77%, 52%);
+  border: 2px solid hsl(31, 77%, 52%);
+}
+
+.btn-one:hover {
+  color: white;
+  background-color: hsl(31, 77%, 52%);
+  border: 2px solid white;
+}
+
+.btn-two {
+  color: hsl(184, 100%, 22%);
+  border: 2px solid hsl(184, 100%, 22%);
+}
+
+.btn-two:hover {
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+  border: 2px solid white;
+}
+
+.btn-three {
+  color: hsl(179, 100%, 13%);
+  border: 2px solid hsl(179, 100%, 13%);
+}
+
+.btn-three:hover {
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+  border: 2px solid white;
+}
